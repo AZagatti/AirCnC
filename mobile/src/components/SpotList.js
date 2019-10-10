@@ -44,7 +44,6 @@ function SpotList({ tech, navigation }) {
         showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
           <View style={styles.listItem}>
-            {console.log(item.thumbnail_url)}
             <Image
               styles={styles.thumbnail}
               source={{ uri: item.thumbnail_url }}
